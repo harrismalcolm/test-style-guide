@@ -1,0 +1,84 @@
+body {
+    font-family: "Lora", serif;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    border: 3px solid lightgrey;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/*** Color ***/
+
+.color {
+    width: 32%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 2px;
+}
+
+.color p {
+    margin: 20px;
+}
+
+.magenta {
+    color: white;
+    background-color: #ff00ff;
+}
+
+.cyan {
+    background-color: #00FFFF;
+}
+
+.seafoam-green {
+    background-color: #93E9BE;
+}
+
+.dandelion {
+    background-color: #f0e130;
+}
+
+/*** Typography ***/
+
+.type {
+    width: 45%;
+    display: inline-block;
+
+}
+
+.title {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.sans-serif {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.monospace {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/********* Text Styles *********/
+
+h1 {
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
